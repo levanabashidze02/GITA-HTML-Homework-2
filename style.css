@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+  }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px 0;
+}
+
+header {
+    background-color: rgba(187, 233, 22);
+}
+
+.site-title {
+    background-color: inherit;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 50px;
+    align-items: center;
+}
+
+.navbar {
+    background-color: inherit;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 50px;
+    align-items: center;
+}
+
+li {
+    background-color: inherit;
+}
+
+footer {
+    background-color: rgba(187, 233, 22);
+}
+
+header h2, footer h2{
+    background-color: inherit;
+}
+
+header a, footer a {
+    text-decoration: none;
+    color: black;
+    background-color: inherit;
+}
+
+figcaption {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.onsite-h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.visible-hr {
+    margin: 10px auto;
+    width: 95%;
+    height: 5px;
+    border: none;
+    color: red;
+    background-color: red;
+}
+
+.invisible-hr {
+    visibility: hidden;
+}
+
+.onsite {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.contact {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    vertical-align: bottom;
+    padding: 10px;
+}
+
+/* These styles were directly put in the code, to hide arrows */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
